@@ -1,5 +1,5 @@
 # uguushot #
-This is a shell script that takes a screenshot with scrot and uploads it to [uguu.se](uguu.se) the flow is quite similar to puush, infact this a minimalized adaption of puush4linux.
+This is a shell script that takes a screenshot with scrot and uploads it to [uguu.se](uguu.se) the flow is quite similar to puush, infact this a minimalized adaption of [puush4linux](https://github.com/crescentrose/puush4linux).
 
 Unlike the original this one uses a 3rd party temporary file hosting server to cut out the need for API keys and the need to log in. Alot of error checking has also been cut out. This is mainly for personal use, but if anyone finds it useful, feel free to do whatever.
 
