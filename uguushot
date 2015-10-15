@@ -37,7 +37,7 @@ fi
 # Take the screenshot if necessary.
 case $SHOT_MODE in
     a) scrot -b -q 90 -s $SHOT_FILE;;
-    w) scrot -b -q 90 -u $SHOT_FILE;;
+    w) scrot -b -d 2 -q 90 -u $SHOT_FILE;;
     f) scrot -b -q 90 $SHOT_FILE;;
 esac
 
