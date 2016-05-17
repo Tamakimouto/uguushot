@@ -49,7 +49,7 @@ fi
 
 # Upload the screenshot.
 # Thanks github.com/blha303/puush-linux/ for assistance.
-UGUU_URL=`curl -F "file=@$SHOT_FILE" "http://uguu.se/api.php?d=upload-tool"`
+UGUU_URL=`curl -F "file=@$SHOT_FILE" "https://uguu.se/api.php?d=upload-tool"`
 
 # Put the URL response in the clipboard
 echo $UGUU_URL | xsel -b
